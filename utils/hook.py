@@ -52,7 +52,7 @@ class HookManager(object):
                 # print(f'The last returned value comes from func {last}')
             return ret
         else:
-           return kwargs['ret']
+           return kwargs['ret'] 
 
     def fork(self, name):
         if name in self.forks:
